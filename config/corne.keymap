@@ -3,6 +3,10 @@
  *
  * SPDX-License-Identifier: MIT
  */
+ZMK_UNICODE_PAIR(   de_ael ,      N0, N0,  E, N4,    N0, N0,  C, N4)
+ZMK_UNICODE_PAIR(   de_oel ,      N0, N0,  F, N6,    N0, N0,  D, N6)
+ZMK_UNICODE_PAIR(   de_uel ,      N0, N0,  F,  C,    N0, N0,  D,  C)
+ZMK_UNICODE_PAIR(de_eszettl ,     N0, N0,  D,  F,    N1, E,   N9, E)
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
