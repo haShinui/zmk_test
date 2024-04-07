@@ -3,10 +3,13 @@
  *
  * SPDX-License-Identifier: MIT
  */
-ZMK_UNICODE_PAIR(   de_ael ,      N0, N0,  E, N4,    N0, N0,  C, N4)
-ZMK_UNICODE_PAIR(   de_oel ,      N0, N0,  F, N6,    N0, N0,  D, N6)
-ZMK_UNICODE_PAIR(   de_uel ,      N0, N0,  F,  C,    N0, N0,  D,  C)
-ZMK_UNICODE_PAIR(de_eszettl ,     N0, N0,  D,  F,    N1, E,   N9, E)
+wait-ms = <40>;
+tap-ms = <40>;
+bindings
+    = <&macro_press   &kp LALT>
+    , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N3>
+    , <&macro_release &kp LALT>
+    ;
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
