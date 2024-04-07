@@ -3,22 +3,6 @@
  *
  * SPDX-License-Identifier: MIT
  */
-/ {
-    macros {
-        zed_em_kay: zed_em_kay {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <40>;
-            tap-ms = <40>;
-            bindings
-                = <&macro_press   &kp LALT>
-                , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N3>
-                , <&macro_release &kp LALT>
-                ;
-
-        };
-    };
-};
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
