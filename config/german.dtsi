@@ -3,10 +3,3 @@ ZMK_UNICODE_PAIR(   de_ae,      N0, N0,  E, N4,    N0, N0,  C, N4)
 ZMK_UNICODE_PAIR(   de_oe,      N0, N0,  F, N6,    N0, N0,  D, N6)
 ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C)
 ZMK_UNICODE_PAIR(de_eszett,     N0, N0,  D,  F,    N1, E,   N9, E)
-ZMK_BEHAVIOR(de_ae_oe, tap_dance,
-    tapping-term-ms = <200>;
-    bindings = <&de_ae>, <&de_oe>, <;
-)
-ZMK_COMBO(ae,  &de_ae , 36 13, 0, 50)
-ZMK_COMBO(AE,  &de_ae , 36 40 13, 0, 50)
-ZMK_COMBO(oe,  &de_oe , 36 22, 0, 50)
