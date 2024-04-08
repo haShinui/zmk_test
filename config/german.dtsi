@@ -9,3 +9,4 @@ ZMK_BEHAVIOR(de_ae_oe, tap_dance,
 )
 ZMK_COMBO(ae,  &de_ae , 36 13, 0, 50)
 ZMK_COMBO(AE,  &de_ae , 36 40 13, 0, 50)
+ZMK_COMBO(oe,  &de_oe , 36 22, 0, 50)
