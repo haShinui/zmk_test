@@ -5,5 +5,8 @@ ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C)
 ZMK_UNICODE_PAIR(de_eszett,     N0, N0,  D,  F,    N1, E,   N9, E)
 ZMK_BEHAVIOR(de_ae_oe, tap_dance,
     tapping-term-ms = <200>;
-    bindings = <&de_ae>, <&de_oe>;
+    bindings = <&de_ae>, <&de_oe>, <;
 )
+ZMK_BEHAVIOR(a_ea, mod_morph,
+      bindings = <&kp A>, <&kp TAB>;
+      mods = <(MOD_A|MOD_B|MOD_C|MOD_D) <:
