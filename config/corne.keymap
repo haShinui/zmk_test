@@ -30,7 +30,7 @@
 &mt DEL ESC  &kp Q           &kp W           &kp F        &kp P      &kp B    &kp J  &kp L           &kp U          &kp Y            &kp SEMICOLON    &kp DELETE
 &key_repeat  &mt LEFT_WIN A  &mt LEFT_ALT R  &mt LCTRL S  &kp T      &kp G    &kp M  &kp N           &mt RCTRL E    &mt RIGHT_ALT I  &mt RIGHT_WIN O  &kp SQT
 &lt 2 LCTRL  &kp Z           &kp X           &kp C        &kp D      &kp V    &kp K  &kp H           &kp COMMA      &kp DOT          &kp FSLH         &kp ENTER
-                                             &kp TAB      &kt SPACE  &mo 1    &kt B  &kt LEFT_SHIFT  &kp BACKSPACE
+                                             &kp TAB      &kt SPACE  &mo 1    &mo 2  &kt LEFT_SHIFT  &kp BACKSPACE
             >;
         };
 

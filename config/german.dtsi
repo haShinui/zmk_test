@@ -7,6 +7,5 @@ ZMK_BEHAVIOR(de_ae_oe, tap_dance,
     tapping-term-ms = <200>;
     bindings = <&de_ae>, <&de_oe>, <;
 )
-ZMK_BEHAVIOR(a_ea, mod_morph,
-      bindings = <&kp A>, <&kp TAB>;
-      mods = <(MOD_A|MOD_B|MOD_C|MOD_D) <:
+ZMK_COMBO(ae,  &de_ae , 36 13, 0, 50)
+ZMK_COMBO(AE,  &de_ae , 36 40 13, 0, 50)
