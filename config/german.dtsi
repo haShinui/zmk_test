@@ -32,7 +32,7 @@ ZMK_BEHAVIOR(fr_a, tap_dance,
 )
 
 
-ZMK_BEHAVIOR(fr_e, tap_dance,
+ZMK_BEHAVIOR(fr_eb, tap_dance,
     tapping-term-ms = <200>;
     bindings = <&fr_e_acute>, <&fr_e_grave>, <&fr_e_circumflex>;
 )
