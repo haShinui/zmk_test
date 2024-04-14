@@ -49,7 +49,7 @@
             bindings = <
 &kp TAB        &kp N1                        &kp N2                &kp N3             &kp N4      &kp N5          &kp N6        &kp N7          &kp NUMBER_8  &kp N9          &kp N0     &kp BSPC
 &kp BACKSPACE  &kp K_COPY                    &kp K_PASTE           &kp K_CUT          &kp K_REDO  &kp K_UNDO      &mkp LCLK     &kp LEFT        &kp UP        &kp DOWN_ARROW  &kp RIGHT  &mkp RCLK
-&kp DELETE     &fr_a_grave                   &fr_eb                &fr_i_o            &fr_u_c     &kp CAPSLOCK    &kp LEFT_WIN  &kp C_AC_HOME   &kp PAGE_UP   &kp PAGE_DOWN   &kp END    &trans
+&kp DELETE     &fr_a                   &fr_eb                &fr_i_o            &fr_u_c     &kp CAPSLOCK    &kp LEFT_WIN  &kp C_AC_HOME   &kp PAGE_UP   &kp PAGE_DOWN   &kp END    &trans
                                                                    &trans             &trans      &none           &mt LCTRL SPACE      &kp LEFT_SHIFT  &kp RALT
             >;
         };
