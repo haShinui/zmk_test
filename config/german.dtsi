@@ -51,6 +51,6 @@ ZMK_BEHAVIOR(deae, hold_tap,
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <125>;
-    bindings = <&kp a>, <&de_ae>;
+    bindings = <&kp >, <&kp>;
 )
 
