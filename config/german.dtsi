@@ -1,4 +1,4 @@
-		/* German umlauts */
+	/* German umlauts */
 ZMK_UNICODE_PAIR(   de_ae,      N0, N0,  E, N4,    N0, N0,  C, N4)
 ZMK_UNICODE_PAIR(   de_oe,      N0, N0,  F, N6,    N0, N0,  D, N6)
 ZMK_UNICODE_PAIR(   de_ue,      N0, N0,  F,  C,    N0, N0,  D,  C)
@@ -21,11 +21,10 @@ ZMK_UNICODE_PAIR(fr_u_circumflex,   N0, N0, F, B,    N0, N0, D, B)   // û/Û
 ZMK_UNICODE_PAIR(fr_u_diaeresis,    N0, N0, F, C,    N0, N0, D, C)   // ü/Ü
 ZMK_UNICODE_PAIR(fr_y_diaeresis,    N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
 
-
 ZMK_COMBO(ae,  &de_ae , 36 13, 0, 450)
 ZMK_COMBO(oe,  &de_oe , 36 22, 0, 450)
 ZMK_COMBO(ue,  &de_ue , 36 8, 0, 450)
-		
+				
 ZMK_BEHAVIOR(fr_a, tap_dance,
     tapping-term-ms = <200>;
     bindings = <&fr_a_grave>, <&fr_a_circumflex>;
