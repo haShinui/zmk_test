@@ -60,3 +60,11 @@ ZMK_BEHAVIOR(deue, tap_dance,
     tapping-term-ms = <200>;
     bindings = <&kp LC(X)>, <&de_ue>;
 )
+
+ZMK_BEHAVIOR(hrm, hold_tap,
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
+    bindings = <&kp>, <&kp>;
+)
