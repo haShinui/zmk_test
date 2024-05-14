@@ -47,10 +47,17 @@ ZMK_BEHAVIOR(fr_u_c, tap_dance,
     bindings = <&fr_u_circumflex>, <&fr_c_cedilla>;
 )
 
-ZMK_BEHAVIOR(deae, hold_tap,
-    flavor = "balanced";
-    tapping-term-ms = <280>;
-    quick-tap-ms = <125>;
-    bindings = <&kp a >, <&de_ae>;
+ZMK_BEHAVIOR(deae, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp K_COPY>, <&deae>;
 )
 
+ZMK_BEHAVIOR(deoe, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp K_COPY>, <&de_oe>;
+)
+
+ZMK_BEHAVIOR(deue, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp K_CUT>, <&de_ue>;
+)
