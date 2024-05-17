@@ -52,7 +52,7 @@
             display-name = "Num&ger";
             bindings = <
 &kp TAB        &kp N1  &kp N2  &kp N3   &kp N4         &kp N5          &kp N6           &kp N7          &kp NUMBER_8  &kp N9          &kp N0     &kp BSPC
-&kp BACKSPACE  &deae   &deoe  &deue     &kp LC(Z)  &kp LC(Y)           &kp LC(LEFT)     &kp LEFT        &kp UP        &kp DOWN_ARROW  &kp RIGHT  &word_right
+&kp BACKSPACE  &deae   &deoe  &deue     &kp LC(Z)  &kp LC(Y)           &kp LC(LEFT)     &kp LEFT        &kp UP        &kp DOWN_ARROW  &kp RIGHT  &kp LC(RIGHT)
 &kp DELETE     &fr_a   &fr_eb  &fr_i_o  &fr_u_c        &kp CAPSLOCK    &kp LEFT_WIN     &kp C_AC_HOME   &kp PAGE_UP   &kp PAGE_DOWN   &kp END    &trans
                                &trans   &trans         &none           &kp SPACE  &kp LEFT_SHIFT  &tap_ct
             >;
