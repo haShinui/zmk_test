@@ -69,14 +69,3 @@ ZMK_BEHAVIOR(hrm, hold_tap,
     bindings = <&kp>, <&kp>;
 )
 
-ZMK_BEHAVIOR(tap_ct, tap_dance,
-    tapping-term-ms = <200>;
-    bindings = <&kp LCTRL>, <&kp LEFT_ALT>;
-)
-
-ZMK_BEHAVIOR(tap_mu, tap_dance,
-    tapping-term-ms = <200>;
-    bindings = <&kp C_NEXT>, <&kp C_PREV>;
-)
-
-)
