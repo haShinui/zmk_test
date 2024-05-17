@@ -69,3 +69,27 @@ ZMK_BEHAVIOR(hrm, hold_tap,
     bindings = <&kp>, <&kp>;
 )
 
+ZMK_BEHAVIOR(tap_ct, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp LCTRL>, <&kp LEFT_ALT>;
+)
+
+ZMK_BEHAVIOR(tap_mu, tap_dance,
+    tapping-term-ms = <200>;
+    bindings = <&kp C_NEXT>, <&kp C_PREV>;
+)
+
+ZMK_COMBO(layer_3,  &tog 3, 0 1, ALL, 25)
+	
+ZMK_BEHAVIOR(word_left, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+    bindings = <&kp LCTRL &kp LEFT>;
+)
+ZMK_BEHAVIOR(word_right, macro,
+    wait-ms = <100>;
+    tap-ms = <5>;
+    bindings = <&kp LCTRL &kp RIGHT>;
+)
+
+
